@@ -1,2 +1,2 @@
 # domain_expiration
-Domain expiration date extraction program
+Simple domain expiration date extraction program. Uses https://who.is/ data. No API calls involved.

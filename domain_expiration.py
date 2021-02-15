@@ -74,7 +74,7 @@ def find_expiration(html):
     return expiration
 
 
-def display_erpiration(expiration):
+def display_expiration(expiration):
     """Display expiration date.
 
     Args: expiration (str)
@@ -89,7 +89,7 @@ def main():
     lookup_url = create_lookup_url(root_domain)
     html = read_webpage(lookup_url)
     expiration = find_expiration(html)
-    display_erpiration(expiration)
+    display_expiration(expiration)
 
 
 main()
